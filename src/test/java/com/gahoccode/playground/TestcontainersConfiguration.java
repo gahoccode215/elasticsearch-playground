@@ -1,4 +1,4 @@
-package com.gahoccode.elasticsearch_playground;
+package com.gahoccode.playground;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
@@ -12,7 +12,9 @@ class TestcontainersConfiguration {
 	@Bean
 	@ServiceConnection
 	ElasticsearchContainer elasticsearchContainer() {
-		return new ElasticsearchContainer(DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch:7.17.10"));
+		return new ElasticsearchContainer(DockerImageName.parse("docker.elastic.co/elasticsearch/elasticsearch:9.0.2"))
+				.withEnv("xpack.security.enabled", "false")
+				.withEnv("xpack.security.http.ssl.enabled", "false");
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.gahoccode.elasticsearch_playground;
+package com.gahoccode.playground;
 
 import org.springframework.boot.SpringApplication;
 
