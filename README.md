@@ -8,3 +8,7 @@ This project is designed to:
 - Interact with **Kibana UI** for data visualization.
 - Learn how to integrate **Java (Spring Boot/Maven)** with Elasticsearch.
 - Run everything easily via **Docker Compose**.
+
+### Connect me via: dominhit215@gmail.com
+
+#### &#169; 2025 gahoccode215
