@@ -1,4 +1,4 @@
-# Welcome to Honors & Rewards
+# Welcome to Elasticsearch Playground
 
 ## You will find in this repo the following stuff
 A simple playground for experimenting with **Elasticsearch** and **Kibana**, powered by **Docker Compose** and integrated with a **Java/Maven** application.
